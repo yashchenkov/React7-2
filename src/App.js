@@ -74,7 +74,7 @@ function Video(props) {
 
 function List(props) {
     return props.list.map(item => {
-        <UpgradeComponent {...item}/>
+        return <UpgradeComponent {...item}/>
     });
 };
 
